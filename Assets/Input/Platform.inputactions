@@ -1,0 +1,56 @@
+{
+    "name": "Platform",
+    "maps": [
+        {
+            "name": "Platform Move",
+            "id": "a4f9cd05-fb5a-4cf9-9cb9-5accada2feb9",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Value",
+                    "id": "d6f55a06-bd7c-43ca-a749-c9693fdd91ad",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press(behavior=2)",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "1D Axis",
+                    "id": "3a1a5a1f-474b-4c14-bff6-595fc81bb891",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "69210ab2-5bed-46b4-8419-2fb5d918fc5c",
+                    "path": "<Keyboard>/#(A)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "87d5d99f-6062-4fa9-9d6e-4083e2e9c01e",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
